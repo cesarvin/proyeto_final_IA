@@ -53,7 +53,7 @@ class Hoopers():
                     is_move = True
                     while (is_move):
                         
-                        mi = input ("Mover desde (fila, columna): \n")
+                        mi = input ("Mover desde (fila, columna) donde 1,1 esquina superior izquierda 10,10, esquina inferfior derecha: \n")
                         if (mi == 't'):
                             play_game = False
                             break   
